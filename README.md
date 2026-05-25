@@ -6,7 +6,7 @@ A model-driven Power App for managing IT assets, assignments, and audit logs acr
 
 This app allows an IT team to track assets across their lifecycle — from procurement through assignment, repair, and retirement. It uses Microsoft Dataverse as the data layer and includes an automated Power Automate alert when an asset is flagged for repair.
 
-![IT Assets List View](screenshots/assets-list.png)
+![IT Assets List View](assets-list.png)
 
 ## Features
 
@@ -67,15 +67,15 @@ This app allows an IT team to track assets across their lifecycle — from procu
 
 **Asset Status Change Alert** — triggers when an IT Asset record is modified. If the Status field equals "Under Repair", an email notification is sent to the IT administrator.
 
-![Power Automate Flow](screenshots/flow.png)
+![Power Automate Flow](flow.png)
 
 ## Screenshots
 
 ### Asset Record
-![Asset Record](screenshots/asset-record.png)
+![Asset Record](asset-record.png)
 
 ### Asset Assignments
-![Asset Assignments](screenshots/asset-assignments.png)
+![Asset Assignments](asset-assignments.png)
 
 ## Project Context
 
